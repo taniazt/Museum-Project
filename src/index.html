@@ -170,10 +170,15 @@
             <input
             type="email"
             class="subscribe__input"
+            value=""
             id="email"
             name="email"
             placeholder="E-mail">
-            <button class="subscribe__button">></button>
+            <button
+              class="subscribe__button"
+              onclick="clearData()">
+                >
+            </button>
           </div>
         </div>
       </div>
@@ -240,6 +245,10 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <script>
+      function clearData() {
+        document.getElementById("email").value = '';
+      };
+    </script>
   </body>
 </html>
