@@ -1,3 +1,3 @@
 # Museum landing page
 
-[DEMO LINK](https://taniazt.github.io/Museum/).
+[DEMO LINK](https://taniazt.github.io/Museum-Project/).
